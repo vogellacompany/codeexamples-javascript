@@ -1,9 +1,12 @@
 = JSDT demo 01
-Patrik Suzzi <psuzzi@gmail.com>
-Version 1.0, 23.10.2016
+Patrik Suzzi
+Version 1.1, 30.11.2016
 :keywords: JSDT, demo, nodejs, bower, npm, javascript, eclipse 
 :experimental:
 
+Readme for https://github.com/vogellacompany/codeexamples-javascript/tree/master/com.vogella.jsdt.demo.neon01[com.vogella.jsdt.demo.neon01 on codeexamples-javascript]
+
+= Description
 
 *Angular.JS* single page application with _routes_ and _controller_.
 Styling is done via *Bootstrap* and *FontAwesome*. The demo also has a *Node.js* _script_ to launch a local *Express* _server_ to serve the application. 

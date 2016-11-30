@@ -1,4 +1,4 @@
-/** com.vogella.jsdt.test/index.js */
+/** index.js */
 var open = require('open');
 
 // open with default browser

@@ -1,0 +1,4 @@
+= JSDT test
+
+This project contains the sources for testing JSDT with Node.js
+see: http://www.vogella.com/tutorials/JavaScript/article.html#run-a-node-js-application[vogella tutorials JavaScript > Run a Node.js Application]

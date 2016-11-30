@@ -1,0 +1,15 @@
+= codeexamples-javascript
+
+Welcome to the source code for JavaScript examples from the http://vogella.com/[vogella.com] website.
+
+All of the source code in this archive is licensed under the EPL license except as noted.
+
+== Using in Eclipse
+
+For using Node.js examples in Eclipse, you should install Java8, node npm and bower. 
+Then you can get an Eclipse IDE with JSDT 2.0 or higher, 
+as explained in: http://www.vogella.com/tutorials/JavaScript/article.html#setup-your-ide-for-using-jsdt-2-0[tutorials > JavaScript > Setup your ide for using JSDT 2.0].
+
+== Contributions ==
+
+Projects should use the com.vogella prefix.

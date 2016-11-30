@@ -6,7 +6,7 @@ All of the source code in this archive is licensed under the EPL license except 
 
 == Using in Eclipse
 
-For using Node.js examples in Eclipse, you should install Java8, node npm and bower. 
+For using Node.js examples in Eclipse, you should install Java8, node, npm, and bower. 
 Then you can get an Eclipse IDE with JSDT 2.0 or higher, 
 as explained in: http://www.vogella.com/tutorials/JavaScript/article.html#setup-your-ide-for-using-jsdt-2-0[tutorials > JavaScript > Setup your ide for using JSDT 2.0].
 

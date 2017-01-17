@@ -1,5 +1,5 @@
 {
-  "name": "jsdt.dem01",
+  "name": "jsdt.demo01",
   "version": "1.0.0",
   "license": "EPL",
   "ignore": [
@@ -9,10 +9,10 @@
     "test",
     "tests"
   ],
-  "dependencies":{
-  	"angular" : "*",
-  	"angular-route" : "*",
-  	"bootstrap" : "*",
-  	"font-awesome" : "*"
+  "dependencies": {
+    "angular": "1.2.25",
+    "angular-route": "1.2.25",
+    "bootstrap": "3.0.0",
+    "font-awesome": "4.0.0"
   }
 }

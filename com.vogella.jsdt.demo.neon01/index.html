@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html ng-app="jsdtApp">
+
 <head>
-<meta charset="ISO-8859-1">
-	<title>Dem01</title>
-	
-	<!-- Bootstrap and Font-awesome css -->
-	<link rel="stylesheet" href="bower_components\bootstrap\dist\css\bootstrap.min.css">
-	<link rel="stylesheet" href="bower_components\font-awesome\css\font-awesome.css">
-	
-	<!-- Angular scripts -->
-	<script type="text/javascript" src="bower_components\angular\angular.js"></script>
-	<script type="text/javascript" src="bower_components\angular-route\angular-route.js"></script>
-	
-	<!-- Angular Application -->
-	<script type="text/javascript" src="indexApp.js"></script>
+  <title>Demo 01</title>
+  <!-- Bootstrap and Font-awesome css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+  <!-- Scripts -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <!-- Application -->
+  <script type="text/javascript" src="application.js"></script>
+  <!-- inline style -->
+  <style type="text/css">
+    .bg-dark { background-color: #6e6e6e; color: #ffffff; }
+    .bg-light { background-color: #f4f4f4; color: #505050; }
+    .bg-orange { background-color: #ff9900; color: #ffffff; }
+    li:hover { background-color: #ff9900; }
+  </style>
 </head>
+
 <body ng-controller="mainController">
-
-	<!-- HEADER AND NAVBAR -->
-	<header>
-		<nav class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#/">Angular Routing Example</a>
-				</div>
-
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#/"><i class="fa fa-home"></i> Home</a></li>
-					<li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
-					<li><a href="#contact"><i class="fa fa-comment"></i>Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-
-	<!-- MAIN CONTENT AND INJECTED VIEWS -->
-	<div id="main">
-
-		<!-- angular templating -->
-		<!-- this is where content will be injected -->
-		<div class="ng-view"></div>
-
-	</div>
-
+  <div class="container">
+    <!-- Nav bar / header -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="nav navbar-brand" href="#">Demo 01</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right fa-2x">
+          <li><a href="/"><i class="fa fa-fw fa-home"></i> Home</a></li>
+          <li><a href="/about"><i class="fa fa-fw fa-book"></i>About</a></li>
+          <li><a href="/contact"><i class="fa fa-fw fa-comment"></i>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main content -->
+    <div class="main">
+      <div class="ng-view"></div>
+    </div>
+  </div>
 </body>
+
 </html>

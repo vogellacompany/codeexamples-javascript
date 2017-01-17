@@ -1,15 +1,10 @@
 {
   "name": "com.vogella.jsdt.demo.neon01",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-  	"launch_server": "node launch-server.js"
-  },
-  "author": "",
+  "author": "Patrik Suzzi",
   "license": "EPL",
-  "devDependencies" : {
-  	"express" : "*",
-  	"open" : "*"
+  "devDependencies": {
+    "express": "*",
+    "open": "*"
   }
 }
